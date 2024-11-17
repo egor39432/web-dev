@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя Визитка</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;nn
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            background: #ffffff;
+            margin: 20px auto;
+            max-width: 800px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            width: 30%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Добро пожаловать на мою визитку!</h1>
+    <nav>
+        <a href="#about">Обо мне</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#contact">Контакты</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>Обо мне</h2>
+    <p>Меня зовут [Владимир]. Я [Компьютерный мастер]. У меня есть опыт в [ремонте компьютеров].</p>
+</section>
+
+<section id="gallery">
+    <h2>Галерея</h2>
+    <div class="gallery">
+        <img src="https://avatars.mds.yandex.net/i?id=c707bb0185fc27f3be998a0ef45d6171_l-8497448-images-thumbs&ref=rim&n=13&w=1000&h=1000" alt="Изображение 1">
+        
+        
+        
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Контакты</h2>
+    <p>Вы можете связаться со мной по электронной почте или через социальные сети:</p>
+    <p>Email: [rfrfrff@gmail.com]</p>
+    <p>Социальные сети: [Telegram-@vladimir4432]</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 [Владимир]. Все права защищены.</p>
+</footer>
+
+</body>
+</html>n
